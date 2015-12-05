@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ray.doglovev2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuDog"
+            android:label="Menu" />
+        <activity android:name=".Register" >
+        </activity>
+        <activity android:name=".BuscarPareja" >
+        </activity>
+        <activity android:name=".VerPerfildos" >
+        </activity>
+        <activity android:name=".BuscarPareja2" >
+        </activity>
+        <activity android:name=".VerPerfil1" >
+        </activity>
+        <activity android:name=".VerMiPerfil">
+        </activity>
+        <activity android:name=".Fotografias" >
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".BuscarPareja3" >
+        </activity>
+        <activity android:name=".VerPerfiltres" >
+        </activity>
+        <activity android:name=".BuscarPareja4" >
+        </activity>
+        <activity android:name=".VerPerfilcuatro">
+        </activity>
+        <activity android:name=".Veterinaria">
+        </activity>
+        <activity android:name=".RopayJugetes">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#ffff871d">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Mi perfil"
+        android:id="@+id/textView3"
+        android:background="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="135dp"
+        android:id="@+id/iviFoto"
+        android:src="@drawable/descarga"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="right" />
+
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fido, 3 años"
+        android:id="@+id/tviNombreEdad"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ff000000"
+        android:visibility="visible"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_gravity="right"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:id="@+id/iviFoto1"
+        android:src="@drawable/labrador"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Es un perro alegre. Le encanta pasear"
+        android:id="@+id/tviDescripcion"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:layout_gravity="right" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bLogout"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Logout"
+        android:layout_height="wrap_content" />
+</LinearLayout>

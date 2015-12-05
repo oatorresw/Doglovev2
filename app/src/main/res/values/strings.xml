@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Doglovev2</string>
+    <string name="title_activity_menu_dog">MenuDog</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="raza">
+        <item>Beagle</item>
+        <item>Boxer</item>
+        <item>Golden Retriever</item>
+        <item>Labrador</item>
+        <item>Samoyedo</item>
+    </string-array>
+
+    <string-array name="distrito">
+        <item>La Molina</item>
+        <item>San Isidro</item>
+        <item>Surco</item>
+        <item>San Borja</item>
+        <item>Miraflores</item>
+    </string-array>
+</resources>

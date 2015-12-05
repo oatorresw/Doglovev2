@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="DogLove"
+        android:id="@+id/textView3"
+        android:background="#ff0000"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="385dp"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Braulio, 3 años"
+            android:id="@+id/tviTexto"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="240dp"
+            android:id="@+id/iviMascota"
+            android:src="@drawable/braulio"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/iviRechazar2"
+                android:src="@drawable/rechazar"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="60dp"
+                android:onClick="likeardos"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="viewEnd">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/iviAceptar2"
+                android:src="@drawable/aceptar"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="60dp"
+                android:onClick="likeardos"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
